@@ -1,6 +1,12 @@
 import Header from "../Components/Header";
+import { useEffect } from "react";
 
 function Sobre(){
+
+    useEffect(() => {
+        document.title = 'HB Running';
+    }, []);
+
     return(
         <body>
             <Header/>

@@ -1,6 +1,12 @@
 import Header from "../Components/Header";
+import { useEffect } from "react";
 
 function Contato(){
+
+    useEffect(() => {
+        document.title = 'HB Running';
+    }, []);
+
     return(
         <body>
             <Header/>
