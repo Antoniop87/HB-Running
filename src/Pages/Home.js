@@ -1,14 +1,17 @@
 import { Link } from "react-router-dom";
 import Header from "../Components/Header";
+import { useState } from "react";
+import MyCarousel from "../Components/Carousel";
 
 function Home() {
+
     return (
         <body>
             <Header />
-            <div className="">
-                <img className="w-full" src="./Imgs/BannerHbrunningCortada.jpg" />
+            <div className="flex justify-center items-center">
+                <MyCarousel/>
             </div>
-            <div class="flex flex-col sm:flex-row p-4">
+            <div class="flex flex-col sm:flex-row sm:mt-20 mt-20 p-4">
                 <div class="w-full sm:w-1/2 bg-blue-800 p-24">
                     <h1 className=" text-xl text-white font-semibold">Corrida</h1>
                     <p className=" text-blue-200">Assessoria Esportiva HB Running</p>
@@ -31,7 +34,7 @@ function Home() {
             </div>
             <div className="flex flex-col mt-40 sm:mt-10 lg:flex-row items-center justify-center h-screen">
                 <div class="m-4 lg:ml-4">
-                    <img className="" src="./Imgs/Banner2.jpeg" width="400px" alt="Imagem" />
+                    <img className="" src="./Imgs/bannernovo.jpeg" width="400px" alt="Imagem" />
                 </div>
                 <div class="w-full lg:w-1/2 p-4 text-center lg:text-left">
                     <h1 class="text-2xl font-bold mb-4">Quem é a HB Running?</h1>
