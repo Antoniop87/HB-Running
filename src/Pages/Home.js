@@ -5,6 +5,10 @@ import MyCarousel from "../Components/Carousel";
 
 function Home() {
 
+    useEffect(() => {
+        document.title = 'HB Running';
+    }, []);
+
     return (
         <body>
             <Header />
