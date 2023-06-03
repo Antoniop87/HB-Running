@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 import Header from "../Components/Header";
-import { useState } from "react";
+import { useEffect } from "react";
 import MyCarousel from "../Components/Carousel";
 
 function Home() {
